@@ -8,52 +8,40 @@ export const SuggestedQueries = ({
 }) => {
   const suggestionQueries = [
     {
-      desktop: "Compare count of unicorns in SF and NY over time",
-      mobile: "SF vs NY",
+      desktop: "What was our MRR last month?",
+      mobile: "Last month MRR",
     },
     {
-      desktop: "Compare unicorn valuations in the US vs China over time",
-      mobile: "US vs China",
+      desktop: "How many paying customers did we have at the end of each month this year?",
+      mobile: "Paying customers",
     },
     {
-      desktop: "Countries with highest unicorn density",
-      mobile: "Top countries",
+      desktop: "How many new signups did we get each month this year?",
+      mobile: "Monthly signups",
     },
     {
-      desktop:
-        "Show the number of unicorns founded each year over the past two decades",
-      mobile: "Yearly count",
+      desktop: "Which plans have the most active subscriptions?",
+      mobile: "Top plans",
     },
     {
-      desktop: "Display the cumulative total valuation of unicorns over time",
-      mobile: "Total value",
+      desktop: "How much was refunded each month this year?",
+      mobile: "Refunds by month",
     },
     {
-      desktop:
-        "Compare the yearly funding amounts for fintech vs healthtech unicorns",
-      mobile: "Fintech vs health",
+      desktop: "What share of payments were refunded last month?",
+      mobile: "Refund share",
     },
     {
-      desktop: "Which cities have with most SaaS unicorns",
-      mobile: "SaaS cities",
+      desktop: "How many web sessions did we get by source last month?",
+      mobile: "Sessions by source",
     },
     {
-      desktop: "Show the countries with highest unicorn density",
-      mobile: "Dense nations",
+      desktop: "Show total payments collected by month",
+      mobile: "Payments by month",
     },
     {
-      desktop:
-        "Show the number of unicorns (grouped by year) over the past decade",
-      mobile: "Decade trend",
-    },
-    {
-      desktop:
-        "Compare the average valuation of AI companies vs. biotech companies",
-      mobile: "AI vs biotech",
-    },
-    {
-      desktop: "Investors with the most unicorns",
-      mobile: "Top investors",
+      desktop: "Compare invoices and payments by month this year",
+      mobile: "Invoices vs payments",
     },
   ];
 
